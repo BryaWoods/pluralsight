@@ -34,6 +34,15 @@ public class MathApp {
 
         //Question 5//
 
+        double x1 = 5;
+        double y1 = 10;
+
+        double x2 = 85;
+        double y2 = 50;
+
+        double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+        System.out.println("The distance between (" + x1 + ", " + y1 + ") and (" + x2 + ", " + y2 + ") is: " + distance);
+
         //Question 6//
 
         double num2 = -3.8;
