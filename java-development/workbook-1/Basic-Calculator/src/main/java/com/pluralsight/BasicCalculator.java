@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class BasicCalculator {
     public static void main(String[] args) {
+
         //This is a basic calculator for gorgeous girls who play ROBLOX//
 
         Scanner myScanner = new Scanner(System.in);
@@ -25,7 +26,7 @@ public class BasicCalculator {
         
         
 
-        System.out.println("You're doing amazing sweetie! Now choose a calculation for this personally curated list of calculations!");
+        System.out.println("You're doing amazing sweetie! Now choose a calculation from this personally curated list of calculations!");
         System.out.println("Enter A for addition");
         System.out.println("Enter S for subtraction");
         System.out.println("Enter M for multiplication");
