@@ -65,7 +65,7 @@ public class StringsPractice {
         // now it contains "new mexico"
         */
 
-        String discountCode = "FAIR-15OFF";
+       /* String discountCode = "FAIR-15OFF";
         if (discountCode.startsWith("FAIR")) {
         // this is true
         }
@@ -89,9 +89,9 @@ public class StringsPractice {
 // vendor contains ACME and productNum contains 12213
 
         String input = "Dallas|Ft. Worth|Austin";
-        String[] cities = input.split("\\|");
+        String[] cities = input.split("\\|");*/
 // cities is an array containing 3 strings
-// [0] is Dallas, [1] is Ft. Worth, [2] is Austin
+// [0] is Dallas, [1] is Ft. Worth, [2] is Austin*/
 
 
 

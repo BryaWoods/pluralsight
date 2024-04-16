@@ -24,13 +24,14 @@ public class FullNameApplication {
             fullName = fullName +  " " + middleName;
         }
 
-        fullName = fullName +  " " + lastName;
+        fullName += " " + lastName;
+        //fullName = fullName +  " " + lastName;//
 
         if(!suffixName.isEmpty()){
             fullName = fullName + ", " + suffixName;
 
         }
-        System.out.println(fullName);
+        System.out.println("\nFull Name: " + fullName);
 
 
     }
