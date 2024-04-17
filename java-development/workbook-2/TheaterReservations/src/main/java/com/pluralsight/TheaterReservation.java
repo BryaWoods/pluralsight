@@ -30,6 +30,9 @@ public class TheaterReservation {
         String ticketPlural = (numTickets == 1) ? "ticket" : "tickets";
         System.out.println(numTickets + " " + ticketPlural + " reserved for " + showDate + " under " + lastName + ", " + firstName);
 
+        scanner.close();
+
+
 
     }
 }
