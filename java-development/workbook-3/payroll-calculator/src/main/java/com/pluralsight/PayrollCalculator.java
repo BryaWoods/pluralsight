@@ -1,19 +1,30 @@
 package com.pluralsight;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.util.Scanner;
 
 public class PayrollCalculator {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
         String line;
         String cvsSplitBy = "\\|";
 
+        System.out.println("Enter the name of the file employee file to process: ");
+        String fileName = scanner.nextLine();
+
+        System.out.println("Enter the name of the payroll file to create: ");
+        String fileName2 = scanner.nextLine();
+
+
+
+
 
         try {
             //FileReader fileReader = new FileReader("employees.csv");
-            BufferedReader bufReader = new BufferedReader(new FileReader("employees.csv"));
+            BufferedReader bufReader = new BufferedReader(new FileReader(fileName));
+            FileWriter fileWriter = new FileWriter(fileName2 + ".csv");
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
 
             while((line = bufReader.readLine()) != null) {
@@ -26,11 +37,18 @@ public class PayrollCalculator {
 
                 Employee employee = new Employee(employeeId, name, hoursWorked, payRate);
 
-                System.out.printf("Employee ID: %d, Name: %s, Gross Pay: $%.2f%n", employee.getEmployeeId(), employee.getName(), employee.getGrossPay());
+                String formattedData = String.format("%d|%s|$%.2f%n", employee.getEmployeeId(), employee.getName(), employee.getGrossPay());
+
+                bufferedWriter.write(formattedData);
+
+
+                //System.out.printf("Employee ID: %d, Name: %s, Gross Pay: $%.2f%n", employee.getEmployeeId(), employee.getName(), employee.getGrossPay());
 
 
 
             }
+
+            bufferedWriter.close();
 
             bufReader.close();
 
