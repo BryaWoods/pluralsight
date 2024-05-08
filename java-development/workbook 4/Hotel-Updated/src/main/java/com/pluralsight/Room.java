@@ -29,10 +29,18 @@ public class Room {
         return isDirty;
     }
 
+    public void setOccupied(boolean occupied) {
+        isOccupied = occupied;
+    }
+
+    public void setDirty(boolean dirty) {
+        isDirty = dirty;
+    }
+
     public boolean isAvailable() {
         return !isOccupied && !isDirty;
     }
-    public void checkIn(Room room) {
+    public void checkIn() {
         if (isAvailable()) {
             isOccupied = true;
             isDirty = true;
@@ -43,7 +51,7 @@ public class Room {
 
     }
 
-    public void checkOut (Room room ){
+    public void checkOut (){
         if (isOccupied) {
             isOccupied = false;
             isDirty = true;
@@ -56,7 +64,7 @@ public class Room {
 
     }
 
-    public void cleanRoom(Room room){
+    public void cleanRoom(){
         if (!isOccupied && isDirty){
             isDirty = false;
             System.out.println("Room has been cleaned.");
