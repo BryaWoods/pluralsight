@@ -96,7 +96,7 @@ public class SearchInventory {
         } catch (IOException e) {
             System.out.println("Error reading file: " + e.getMessage());
         }
-
+        return inventory;
 
     }
 

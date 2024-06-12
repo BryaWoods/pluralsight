@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0794baa-9cc9-49f1-9e30-383b7f45e1ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-demo/src/main/java/com/pluralsight/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-demo/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-demo/src/test/java/com/pluralsight/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../neighborhood-library/src/main/java/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../neighborhood-library/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook 4/BlackJack/src/main/java/com/pluralsight/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook 4/BlackJack/src/main/java/com/pluralsight/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook 4/BlackJack/src/main/java/com/pluralsight/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook 4/BlackJack/src/main/java/com/pluralsight/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook 4/BlackJack/src/main/java/com/pluralsight/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook 4/BlackJack/src/main/java/com/pluralsight/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook 4/BlackJack/src/main/java/com/pluralsight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook 4/BlackJack/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook 4/StaticClasses/src/main/java/com/pluralsight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook 4/StaticClasses/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook 4/StaticClasses/src/main/java/com/pluralsight/NameFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook 4/StaticClasses/src/main/java/com/pluralsight/NameFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/main/java/com/pluralsight/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/main/java/com/pluralsight/Guest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/main/java/com/pluralsight/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/main/java/com/pluralsight/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/main/java/com/pluralsight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/main/java/com/pluralsight/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/main/java/com/pluralsight/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/main/java/com/pluralsight/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/main/java/com/pluralsight/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/test/java/com/pluralsight/GuestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/test/java/com/pluralsight/GuestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/test/java/com/pluralsight/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/test/java/com/pluralsight/HotelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/test/java/com/pluralsight/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook 4/hotel-management-system/src/test/java/com/pluralsight/RoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-2/FullNameGenerator/src/main/java/com/pluralsight/FullNameApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-2/FullNameGenerator/src/main/java/com/pluralsight/FullNameApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-2/LoopingExercises/src/main/java/WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-2/LoopingExercises/src/main/java/WhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-2/LoopingExercises/src/main/java/com/pluralsight/DoWhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-2/LoopingExercises/src/main/java/com/pluralsight/DoWhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-2/LoopingExercises/src/main/java/com/pluralsight/ForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-2/LoopingExercises/src/main/java/com/pluralsight/ForLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-2/RollTheDice/src/main/java/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-2/RollTheDice/src/main/java/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-2/RollTheDice/src/main/java/RollDiceMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-2/RollTheDice/src/main/java/RollDiceMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-2/TestStatistics/src/main/java/TestStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-2/TestStatistics/src/main/java/TestStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-3/Search-Inventory-Map/src/main/java/com/pluralsight/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-3/Search-Inventory-Map/src/main/java/com/pluralsight/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-3/Search-Inventory-Map/src/main/java/com/pluralsight/StoreApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-3/Search-Inventory-Map/src/main/java/com/pluralsight/StoreApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-3/search-inventory/src/main/java/com/pluralsight/SearchInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-3/search-inventory/src/main/java/com/pluralsight/SearchInventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-5/AbstractAssets/src/main/java/com/pluralsight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-5/AbstractAssets/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-5/asset-manager/src/main/java/com/pluralsight/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-5/asset-manager/src/main/java/com/pluralsight/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-7/insert-update-delete/northwind_ins_up_del.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-7/insert-update-delete/northwind_ins_up_del.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-7/joins/northwind_joins.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-7/joins/northwind_joins.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2hhHYb6StmRyMrpO2k7cmq8BvY0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0794baa-9cc9-49f1-9e30-383b7f45e1ac" name="Changes" comment="" />
+      <created>1718039444918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718039444918</updated>
+    </task>
+    <servers />
+  </component>
+</project>

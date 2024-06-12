@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class FullNameApplication {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please enter first name: ");
         String firstName = scanner.nextLine().trim();
@@ -31,7 +31,9 @@ public class FullNameApplication {
             fullName = fullName + ", " + suffixName;
 
         }
-        System.out.println("\nFull Name: " + fullName);
+        System.out.println("\nFull Name: " + fullName);*/
+
+        
 
 
     }

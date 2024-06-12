@@ -1,0 +1,51 @@
+CREATE DATABASE car_dealership;
+
+USE car_dealership;
+
+CREATE TABLE Dealerships(
+ArtistID INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+Firstname VARCHAR(50) NOT NULL,
+Lastname VARCHAR(50) NOT NULL,
+Stagename VARCHAR(50),
+BirhtDate DATE,
+Problematic BOOLEAN
+);
+
+CREATE TABLE Albums(
+AlbumID INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+AlbumTitle VARCHAR(50) NOT NULL,
+Artistname VARCHAR(50),
+ArtistID INT,
+BillboardTop100 BOOLEAN,
+AlbumDuration TIME,
+AlbumSales DECIMAL(10,2),
+
+FOREIGN KEY (ArtistID) REFERENCES Artists(ArtistID)
+);
+
+CREATE TABLE Songs(
+SongID INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+SongTitle VARCHAR(50) NOT NULL,
+Artistname VARCHAR(50),
+ArtistID INT,
+BillboardTop100 BOOLEAN,
+AlbumID INT,
+SongDuration TIME,
+SongRevenue DECIMAL(10,2),
+
+FOREIGN KEY (ArtistID) REFERENCES Artists(ArtistID),
+FOREIGN KEY (AlbumID) REFERENCES Albums(AlbumID)
+);
+
+CREATE TABLE MusicVideos(
+VideoID INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+SongID INT NOT NULL,
+ArtistID INT NOT NULL,
+VideoDuration TIME,
+Distribution TEXT,
+Platform VARCHAR(100),
+VideoRevenue DECIMAL(10,2),
+
+FOREIGN KEY (SongID) REFERENCES Songs(SongID),
+FOREIGN KEY (ArtistID) REFERENCES Artists(ArtistID)
+);

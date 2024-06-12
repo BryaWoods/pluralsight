@@ -1,11 +1,9 @@
 public class WhileLoop {
     public static void main(String[] args) {
-        int i = 1;
-        int sum = 0;
+        int i = 0;
 
-        while (i <= 5) {
-            System.out.println("I <3 JAVA");
-            sum += i;
+        while (i < 5) {
+            System.out.println("I <3 Kendrick Lamar");
             i++;
         }
 

@@ -45,11 +45,11 @@ public class Vehicle extends Asset{
         if (age <= 3) {
             value = getOriginalCost() * (1 - 0.03 * age);
         } else if (age <= 6) {
-            value = getOriginalCost() * (1 - 0.03 * 3 - 0.06 * (age - 3));
+            value = getOriginalCost() * (1 - 0.06 * age);
         } else if (age <= 10) {
-            value = getOriginalCost() * (1 - 0.03 * 3 - 0.06 * 3 - 0.08 * (age - 6));
+            value = getOriginalCost() * (1 - 0.08 * age);
         } else {
-            value = 1000.00;
+            value = getOriginalCost() - 1000.00;
         }
         if (odometer > 100000 && !(makeModel.contains("Honda") || makeModel.contains("Toyota"))) {
             value *= 0.75;

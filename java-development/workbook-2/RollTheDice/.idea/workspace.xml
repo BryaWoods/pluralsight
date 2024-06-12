@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc24ab51-b22a-43e9-89aa-fd559a792869" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RollDiceMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoopingExercises/src/main/java/WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoopingExercises/src/main/java/WhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoopingExercises/src/main/java/com/pluralsight/DoWhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoopingExercises/src/main/java/com/pluralsight/DoWhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoopingExercises/src/main/java/com/pluralsight/ForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoopingExercises/src/main/java/com/pluralsight/ForLoop.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "BryaWoods"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BryaWoods/pluralsight.git",
+    "accountId": "9a82a7da-f2e4-4a4d-8ac5-3083bddc357b"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2fHaZGMQxhEJAd74PIdlKVm5cQI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc24ab51-b22a-43e9-89aa-fd559a792869" name="Changes" comment="" />
+      <created>1713460512215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713460512215</updated>
+    </task>
+    <servers />
+  </component>
+</project>
